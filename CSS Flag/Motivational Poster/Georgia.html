@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindLand</title>
+    <style>
+        div{
+            margin: 0;
+        }
+        .container{
+            box-sizing: border-box;
+            width: 900px;
+            height: 600px;
+            border: 2px solid black;
+            background-color: red;
+        }
+        .small-square{
+            position: relative;
+            height: 333px;
+            width: 333px;
+            background-color: #7BAEDE;
+        }
+
+        .small-square div{
+            background-color: white;
+        }
+
+        .vertical{
+            position: absolute;
+            left: 125px;
+            width: 66px;
+            height: 100%;
+        }
+
+        .horizontal{
+            position: absolute;
+            top: 130px;
+            width: 100%;
+            height: 66px;
+        }
+
+        .white{
+            position: absolute;
+            width: 900px;
+            height: 66px;
+            background-color: white;
+        }
+
+        .white-one, .white-two{
+            top: 73.5px;
+            left: 341px;
+            width: 566px;
+        }
+
+        .white-two{
+            top: 206px;
+        }
+
+        .white-three, .white-four{
+            width: 898px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="small-square">
+            <div class="vertical"></div>
+            <div class="horizontal"></div>
+        </div>
+        <div class="white white-one"></div>
+        <div class="white white-two"></div>
+        <div class="white white-three"></div>
+        <div class="white white-four"></div>
+        </div>
+    </div>
+</body>
+</html>
