@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.title{
+    position: relative;
+    background-image: url("../assets/mountain1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.photo-container{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.intro > h1{
+    font-weight: 900px;
+    letter-spacing: 6px;
+}
+
+#hero, #skills, .intouch{
+    color: #487B80;
+    letter-spacing: 2px;
+}
+
+.intouch > h3, h2{
+    margin: 20px;
+}
+
+.photo-container > h1, #skills > h1, #footer > h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+hr{
+    width: 100px;
+    margin: 100px auto;
+    border-top: 2px dashed #487B80;
+    border-bottom: none;
+}
+.img-photo{
+    display: block;
+    margin: 100px auto 100px auto;
+    border-radius: 15% 30% 15% ;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.digital > h3{
+    margin-top: 18px;
+}
+
+.skill-image{
+    width: 300px;
+    height: 300px;
+}
+
+.intouch{
+    text-align: center;
+    width: 50%;
+    margin: 100px auto;
+}
+
+.intouch > h1, .intouch > h3, .intouch > p{
+    margin-bottom: 25px;
+}
+
+button{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 7px;
+    background-color: #487B80;
+    color: whitesmoke;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    width: 50%;
+    margin: auto;
+}
+
+#footer{
+    display: flex;
+    height: 200px;
+    background-color: #487B80;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.nav-items{
+    display: inline-flex;
+    gap: 20px;
+    align-content: flex-start;
+    color: #666075;
+}
+
+
+
+
