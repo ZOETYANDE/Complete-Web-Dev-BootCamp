@@ -43,3 +43,38 @@ $('h1').prepend("<button>Inside</button>");
 
 //Removing elements using .remove() method
 //$("button").remove();
+
+
+// $('button').on("click", function() {
+//     $("h1").hide();
+// })
+
+// $('button').on("click", function() {
+//     $("h1").show();
+// })
+
+// $('button').on("click", function() {
+//     $("h1").toggle();
+// });
+
+// $('button').on("click", function() {
+//     $("h1").fadeOut();//fadeIn();
+// });
+
+// $('button').on("click", function() {
+//     $("h1").fadeToggle();
+// })
+
+//slideUp(), slideDown()
+
+// $('button').on("click", function() {
+//     $("h1").slideToggle();
+// })
+
+// $('button').on("click", function() {
+//     $("h1").animate({fontSize: 100, opacity: 0.5});
+// })
+
+$('button').on("click", function() {
+    $("h1").slideUp().slideDown().animate({opacity: 0.5, fontSize: "15rem"});
+})
