@@ -46,4 +46,7 @@ function playSound(name){
 
 function animatePress(currentColor){
     $("."+currentColor).addClass("pressed");
+    setTimeout(() => {
+        $("."+currentColor).removeClass("pressed");
+    }, 100);
 }
